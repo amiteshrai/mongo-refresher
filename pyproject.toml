@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "mongo-refresher"
+version = "0.1.0"
+description = "A refresher on the fundamentals of the MongoDB database"
+authors = ["Amitesh Kumar <amiteshrai@outlook.com>"]
+readme = "README.md"
+homepage = "https://github.com/amiteshrai/mongo-refresher"
+repository = "https://github.com/amiteshrai/mongo-refresher"
+keywords = ["Python", "MongoDB", "NoSQL"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mypy = "^0.971"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+flake8 = "^5.0.2"
+black = "^22.6.0"
+radon = "^5.1.0"
+coverage = "^6.4.2"
+pytest-cov = "^3.0.0"
+safety = "^2.1.1"
+pre-commit = "^2.20.0"
+flake8-pytest-style = "^1.6.0"
+nitpick = "^0.32.0"
+isort = "^5.10.1"
+autoflake = "^1.4"
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.run]
+omit = [".venv/*"]

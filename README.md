@@ -1,3 +1,3 @@
 # Mongo Refresher
 
-A refresher on the concepts of MongoDB database using Python programming.
+A refresher on the fundamental concepts of the MongoDB database using Python programming.

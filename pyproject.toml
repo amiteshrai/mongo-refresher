@@ -11,6 +11,8 @@ keywords = ["Python", "MongoDB", "NoSQL"]
 [tool.poetry.dependencies]
 python = "^3.9"
 mypy = "^0.971"
+pymongo = "^4.2.0"
+motor = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.6.0"
